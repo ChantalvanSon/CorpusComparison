@@ -1,6 +1,9 @@
 ## Corpus Comparison
 
-This repository contains an overview of the document intersections of language resources.
+This repository contains an overview of the document intersections of language resources. It is described in the following paper:
+
+> Chantal van Son, Oana Inel, Roser Morante, Lora Aroyo and Piek Vossen (2018). Resource Interoperability for Sustainable Benchmarking: The Case of Events. In Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan. [pdf](https://www.aclweb.org/anthology/L18-1178)
+
 
 ### Language Resources
 
@@ -49,3 +52,7 @@ The intersections of the corpora can be visualized using [UpSet](http://caleydo.
 2. [UpSetR Shiny App](https://gehlenborglab.shinyapps.io/upsetr/) For a static visualization, go to the UpSetR Shiny App and upload [this document](https://raw.githubusercontent.com/ChantalvanSon/CorpusComparison/master/data/intersections.csv) (can be found under `data`).
 3. [UpSetR](https://github.com/hms-dbmi/UpSetR): Install the UpSetR package in R and create the plot using [this document](https://raw.githubusercontent.com/ChantalvanSon/CorpusComparison/master/data/intersections.csv) (can be found under `data`).
 4. [pyUpSet](https://github.com/ImSoErgodic/py-upset): Install pyUpSet in Python to create the plot; this will need some more pre-processing and the visualizations are not as nice as the other methods.
+
+
+
+![box](./images/UpSet_website_cardinality.png)
